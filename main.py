@@ -81,9 +81,9 @@ def presskey(keystroke):
         press('space')
 
 while True:
-    time.sleep(1) #every ___ seconds we 'run it' as the kids say
+    time.sleep(2) #every ___ seconds we 'run it' as the kids say
 
-    keyChance = .50 #50% chance to select a keystroke
+    keyChance = .40 #40% chance to select a keystroke
     if random.random() < keyChance:
 
         space_chance = .1 #10% chance to press space (or select 10)
