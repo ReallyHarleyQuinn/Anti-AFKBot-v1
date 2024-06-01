@@ -1,6 +1,6 @@
 import random
 import time
-from pydirectinput import press, keyDown, keyUp, typewrite
+from pydirectinput import press, keyDown, keyUp
 from pywinauto import application
 from pywinauto.findwindows import find_window, WindowNotFoundError
 from keyboard import write #pyautogui wont type special characters so gotta use this loll
@@ -77,7 +77,7 @@ def presskey(keystroke):
         time.sleep(keyInterval)
         keyUp('s')
         keyUp('a')
-    elif keystroke == 10:
+    elif keystroke == 10 and doJump == True:
         press('space')
 
 while True:
