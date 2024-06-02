@@ -1,9 +1,10 @@
-# afkbot-v1
-an anti-afk bot that types in chat, moves around in all directions, and... more!
+# 🎉 Anti-AFKBot-v1
+Anti-AFK bot that types in chat, moves around in all directions, and... more!
 
-# tutorial
-1. install python
-2. run ```pip install pywinauto```, ```pip install keyboard```, and ```pip install pyautogui```
-3. then just open the "main.py" file and have fun...
+### Installation: 🛠️
+1. Make sure you have the latest version of Python installed.
+2. Download this repository as ZIP and extract.
+3. Open your terminal, navigate to the repository folder, and run: ```pip install -r requirements.txt```
+4. Run ```main.py``` as executable.
 
-ill update the process and tutorial later, when its polished!! :DD
+Thank you for using my Anti-AFK bot! I will make sure to make an updated version in the future! :DD
